@@ -28,10 +28,10 @@ int main(){
     }
 
    if(heads > tails){
-        printf("You won!\n");
+        printf("%s won!\n", name);
     }
     else{
-        printf("You lose!\n");
+        printf("%s lose!\n", name);
     }
     printf("Heads: %d , Tails : %d\n", heads , tails);
 
